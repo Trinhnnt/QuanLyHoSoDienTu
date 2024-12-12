@@ -136,7 +136,7 @@
             "Nam ",
             "Nữ ",
             "Khác"});
-            this.cbGender.Location = new System.Drawing.Point(495, 37);
+            this.cbGender.Location = new System.Drawing.Point(495, 39);
             this.cbGender.Name = "cbGender";
             this.cbGender.Size = new System.Drawing.Size(90, 24);
             this.cbGender.TabIndex = 7;
@@ -266,7 +266,7 @@
             // 
             // Name
             // 
-            this.Name.HeaderText = "Form1";
+            this.Name.HeaderText = "Họ và tên";
             this.Name.MinimumWidth = 6;
             this.Name.Name = "Name";
             this.Name.Width = 125;
@@ -444,6 +444,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimizeBox = false;
+            this.Name.HeaderText = "Họ và Tên";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Quản lý nhân viên";
             this.TransparencyKey = System.Drawing.Color.MidnightBlue;
@@ -477,16 +478,15 @@
         private System.Windows.Forms.TextBox txtSearchName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Position;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Timestamp;
         private System.Windows.Forms.TextBox txtDeleteID;
         private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Position;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Timestamp;
     }
 }

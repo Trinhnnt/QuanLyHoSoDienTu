@@ -37,7 +37,7 @@ namespace HoSoDienTu
         public class Node
         {
             public int ID { get; set; }
-            public string EName { get; set; }
+            public string Name { get; set; }
             public string Position { get; set; }
             public string Gender { get; set; }
             public DateTime Timestamp { get; set; }
@@ -47,7 +47,7 @@ namespace HoSoDienTu
             public Node(int id, string name, string position, string gender, DateTime timestamp)
             {
                 ID = id;
-                EName = name;
+                Name = name;
                 Position = position;
                 Gender = gender;
                 Timestamp = timestamp;
@@ -137,7 +137,7 @@ namespace HoSoDienTu
                 if (root != null)
                 {
                     SearchByNameRec(root.LeftNode, name, result);
-                    if (root.EName.IndexOf(name, StringComparison.OrdinalIgnoreCase) >= 0)
+                    if (root.Name.IndexOf(name, StringComparison.OrdinalIgnoreCase) >= 0)
                     {
                         result.Add(root);
                     }
@@ -329,7 +329,7 @@ namespace HoSoDienTu
             {
                 foreach (var node in nodes)
                 {
-                    dgvData.Rows.Add(node.ID, node.EName, node.Gender, node.Position, node.Timestamp.ToString("dd/MM/yyyy"));
+                    dgvData.Rows.Add(node.ID, node.Name, node.Gender, node.Position, node.Timestamp.ToString("dd/MM/yyyy"));
                 }
             }
         }
@@ -339,7 +339,7 @@ namespace HoSoDienTu
             if (root != null)
             {
                 AddNodesToGrid(root.LeftNode); // Thêm các nút bên trái
-                dgvData.Rows.Add(root.ID, root.EName, root.Gender, root.Position, root.Timestamp.ToString("dd/MM/yyyy")); // Thêm nút hiện tại
+                dgvData.Rows.Add(root.ID, root.Name, root.Gender, root.Position, root.Timestamp.ToString("dd/MM/yyyy")); // Thêm nút hiện tại
                 AddNodesToGrid(root.RightNode); // Thêm các nút bên phải
             }
         }
