@@ -1,0 +1,15 @@
+D:\C#\HoSoDienTu\obj\Debug\HoSoDienTu.csproj.AssemblyReference.cache
+D:\C#\HoSoDienTu\obj\Debug\HoSoDienTu.Form1.resources
+D:\C#\HoSoDienTu\obj\Debug\HoSoDienTu.Properties.Resources.resources
+D:\C#\HoSoDienTu\obj\Debug\HoSoDienTu.csproj.GenerateResource.cache
+D:\C#\HoSoDienTu\obj\Debug\HoSoDienTu.csproj.CoreCompileInputs.cache
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.csproj.AssemblyReference.cache
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.Form1.resources
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.Properties.Resources.resources
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.csproj.GenerateResource.cache
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.csproj.CoreCompileInputs.cache
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\bin\Debug\HoSoDienTu.exe.config
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\bin\Debug\HoSoDienTu.exe
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\bin\Debug\HoSoDienTu.pdb
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.exe
+D:\Tài liệu UEH\CTDL&GT\BÀI TẬP THỰC HÀNH\HoSoDienTu (1)\obj\Debug\HoSoDienTu.pdb
